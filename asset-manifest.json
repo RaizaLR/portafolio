@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/RaizaLR/portafolio/static/css/main.06317826.chunk.css",
-    "main.js": "/RaizaLR/portafolio/static/js/main.0d4ba904.chunk.js",
-    "main.js.map": "/RaizaLR/portafolio/static/js/main.0d4ba904.chunk.js.map",
-    "runtime-main.js": "/RaizaLR/portafolio/static/js/runtime-main.482960b0.js",
-    "runtime-main.js.map": "/RaizaLR/portafolio/static/js/runtime-main.482960b0.js.map",
-    "static/js/2.eb505fdf.chunk.js": "/RaizaLR/portafolio/static/js/2.eb505fdf.chunk.js",
-    "static/js/2.eb505fdf.chunk.js.map": "/RaizaLR/portafolio/static/js/2.eb505fdf.chunk.js.map",
-    "static/js/3.3ef7a4fe.chunk.js": "/RaizaLR/portafolio/static/js/3.3ef7a4fe.chunk.js",
-    "static/js/3.3ef7a4fe.chunk.js.map": "/RaizaLR/portafolio/static/js/3.3ef7a4fe.chunk.js.map",
-    "index.html": "/RaizaLR/portafolio/index.html",
-    "static/css/main.06317826.chunk.css.map": "/RaizaLR/portafolio/static/css/main.06317826.chunk.css.map",
-    "static/js/2.eb505fdf.chunk.js.LICENSE.txt": "/RaizaLR/portafolio/static/js/2.eb505fdf.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/RaizaLR/portafolio/static/media/portfolioBackgroundImg.21f1a5b9.png"
+    "main.css": "/portafolio/static/css/main.49c2eee1.chunk.css",
+    "main.js": "/portafolio/static/js/main.0d4ba904.chunk.js",
+    "main.js.map": "/portafolio/static/js/main.0d4ba904.chunk.js.map",
+    "runtime-main.js": "/portafolio/static/js/runtime-main.bc3e3bd1.js",
+    "runtime-main.js.map": "/portafolio/static/js/runtime-main.bc3e3bd1.js.map",
+    "static/js/2.eb505fdf.chunk.js": "/portafolio/static/js/2.eb505fdf.chunk.js",
+    "static/js/2.eb505fdf.chunk.js.map": "/portafolio/static/js/2.eb505fdf.chunk.js.map",
+    "static/js/3.3ef7a4fe.chunk.js": "/portafolio/static/js/3.3ef7a4fe.chunk.js",
+    "static/js/3.3ef7a4fe.chunk.js.map": "/portafolio/static/js/3.3ef7a4fe.chunk.js.map",
+    "index.html": "/portafolio/index.html",
+    "static/css/main.49c2eee1.chunk.css.map": "/portafolio/static/css/main.49c2eee1.chunk.css.map",
+    "static/js/2.eb505fdf.chunk.js.LICENSE.txt": "/portafolio/static/js/2.eb505fdf.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/portafolio/static/media/portfolioBackgroundImg.21f1a5b9.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.482960b0.js",
+    "static/js/runtime-main.bc3e3bd1.js",
     "static/js/2.eb505fdf.chunk.js",
-    "static/css/main.06317826.chunk.css",
+    "static/css/main.49c2eee1.chunk.css",
     "static/js/main.0d4ba904.chunk.js"
   ]
 }

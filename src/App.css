@@ -115,3 +115,81 @@ nav.fill ul li a:hover:after {
   -moz-animation: fill 1s forwards;
   opacity: 1;
 }
+
+/* projects section */
+.projects{
+  height: 90vh;
+  overflow-y: scroll;
+}
+
+.projectsTitle{
+font-size: 45px;
+letter-spacing: 0.055em;
+color: #fff;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.leftProjectContainer{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0vh 0vw 10vh 5vw;
+}
+
+.rightProjectContainer{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 0vh 11.5vw 10vh 0vw;
+}
+
+.leftButtonscontainer{
+display: flex;
+flex-direction: column;
+margin: 0vh 0vw 0vh 2vw;
+}
+
+.rightButtonscontainer{
+  display: flex;
+  flex-direction: column;
+  margin: 0vh 2vw 0vh 0vw;
+  }
+
+.demoBtn{
+  width: 242px;
+  height: 72px;
+  background-color: #C28FEF;
+  font-size: 30px;
+  letter-spacing: 0.02em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 4vh;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.demoBtn:hover{
+  background-color: #D5B2F3;
+}
+
+.githubBtn{
+  width: 242px;
+  height: 72px;
+  background-color: #212528;
+  color: #fff;
+  font-size: 30px;
+  letter-spacing: 0.02em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.githubBtn:hover {
+  background-color: #464C51;
+}
+
+.githubLogo{
+  margin-right: 0.5vw;
+}

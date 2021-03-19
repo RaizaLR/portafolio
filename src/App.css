@@ -122,7 +122,7 @@ nav.fill ul li a:hover:after {
   overflow-y: scroll;
 }
 
-.projectsTitle{
+.title{
 font-size: 45px;
 letter-spacing: 0.055em;
 color: #fff;
@@ -194,6 +194,52 @@ margin: 0vh 0vw 0vh 2vw;
   margin-right: 0.5vw;
 }
 
+/* About me section */
+
+.aboutMeContainer{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.aboutMeImg{
+  width: 50vw;
+}
+
+/* contact section */
+
+.contactSectionContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contactSectionContent{
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 20px;
+  width: 80vw;
+  height: 55vh;
+  display: flex;
+  align-self: center;
+  align-items: center;
+}
+
+.contactImgContainer{
+  width: 35%;
+}
+
+.logo{
+margin-right: 2vw;
+}
+
+
+.contactInfo{
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: 5vh;
+}
+
 @media screen and (min-width: 320px) and (max-width: 414px) and (orientation: portrait) {
 
 .headerTitle{
@@ -226,7 +272,7 @@ nav.stroke ul li a:after, nav.fill ul li a:after {
   height: 2px;
 }
 
-.projectsTitle {
+.title {
   font-size: 5vh;
 }
 
@@ -258,4 +304,134 @@ nav.stroke ul li a:after, nav.fill ul li a:after {
   margin: 0vh 2vw 10vh 0vw;
 }
 
+.aboutMeImg{
+  width: 90vw;
+}
+
+/* contact section mobile*/
+
+.contactSectionContent{
+  width: 80vw;
+  flex-direction: column;
+}
+
+.contactImgContainer{
+  width: 35%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2vh;
+  margin-top: 2vh;
+}
+
+.logo{
+margin-right: 2vw;
+width: 10vw;
+}
+
+.contactImg{
+  width: 30vw;
+}
+
+
+.contactInfo{
+  font-size: 2vh;
+}
+
+}
+
+@media screen and (min-width: 415px) and (max-width: 1024px) and (orientation: portrait) {
+  .headerTitle{
+    font-size: 2.5vh;
+    width: 29%;
+    }
+    .App-header{
+    font-size: 2vh;
+    padding-right: 0px;
+  }  
+  .headerSubtitle{
+    font-size: 1.7vh;
+  }
+  
+  nav ul li a {
+    display: block;
+    padding: 10px 0px 10px 0px;
+  }
+  
+  nav.stroke ul li a:after, nav.fill ul li a:after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 0%;
+    content: '.';
+    color: transparent;
+    background: #fff;
+    height: 2px;
+  }
+  
+  .projectsTitle {
+    font-size: 5vh;
+  }
+  
+  .projectImg{
+    width: 75%;
+  }
+  
+  .demoBtn {
+    width: 20vw;
+    height: 5vh;
+    margin-bottom: 1.5vh;
+    font-size: 2vh;
+  }
+  
+  .githubBtn{
+    width: 20vw;
+    height: 5vh;
+    font-size: 2vh;
+  }
+  .githubLogo{
+    width: 5vw;
+    margin-right: 1vw;
+  }
+  
+  .rightProjectContainer{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 0vh 2vw 10vh 0vw;
+  }
+
+  .aboutMeImg{
+    width: 90vw;
+  }
+
+  /* contact section tablet*/
+
+.contactSectionContent{
+  width: 80vw;
+  flex-direction: column;
+}
+
+.contactImgContainer{
+  width: 35%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2vh;
+  margin-top: 2vh;
+}
+
+.logo{
+margin-right: 2vw;
+width: 10vw;
+}
+
+.contactImg{
+  width: 30vw;
+}
+
+
+.contactInfo{
+  font-size: 2vh;
+}
 }

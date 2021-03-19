@@ -6,7 +6,7 @@ function Projects() {
     return (
         <div>
             <div className='projects'>
-                    <h1 className='projectsTitle'>Proyectos</h1>
+                    <h1 className='title'>Proyectos</h1>
                     <div className='leftProjectContainer'>
                         <img src={TuOportunidad} alt='Tu Oportunidad' className='projectImg'/>
                         <div className='leftButtonscontainer'>

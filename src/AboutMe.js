@@ -1,8 +1,12 @@
+import AboutMe from './AboutMe.svg'
+
 function About() {
     return (
-        <div>
-            <h1>Sobre mi</h1>
-           <p>Sección donde cuento un poco sobre mi experiencia</p> 
+        <div className='aboutMeContainer'>
+            <h1 className='title'>Sobre mi</h1>
+            <article className='aboutMeContent'>
+                <img src={AboutMe} alt='Sobre Mi' className='aboutMeImg'/>
+            </article>
         </div>
     )}
 

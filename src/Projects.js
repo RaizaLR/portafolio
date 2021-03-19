@@ -8,7 +8,7 @@ function Projects() {
             <div className='projects'>
                     <h1 className='projectsTitle'>Proyectos</h1>
                     <div className='leftProjectContainer'>
-                        <img src={TuOportunidad} alt='Tu Oportunidad'/>
+                        <img src={TuOportunidad} alt='Tu Oportunidad' className='projectImg'/>
                         <div className='leftButtonscontainer'>
                             <span className='demoBtn'>Ver demo</span>
                             <span className='githubBtn'><img src={githubIcon} alt='GitHub' className='githubLogo'/>GitHub</span>
@@ -19,10 +19,10 @@ function Projects() {
                             <span className='demoBtn'>Ver demo</span>
                             <span className='githubBtn'><img src={githubIcon} alt='GitHub' className='githubLogo'/>GitHub</span>
                         </div>
-                        <img src={SushiQueen} alt='Sushi Queen'/>
+                        <img src={SushiQueen} alt='Sushi Queen' className='projectImg'/>
                     </div>
                     <div className='leftProjectContainer'>
-                        <img src={BeautyTips} alt='Beauty Tips'/>
+                        <img src={BeautyTips} alt='Beauty Tips' className='projectImg'/>
                         <div className='leftButtonscontainer'>
                             <span className='demoBtn'>Ver demo</span>
                             <span className='githubBtn'><img src={githubIcon} alt='GitHub' className='githubLogo'/>GitHub</span>

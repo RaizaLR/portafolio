@@ -217,7 +217,7 @@ margin: 0vh 0vw 0vh 2vw;
 .contactSectionContent{
   background: rgba(255, 255, 255, 0.8);
   border-radius: 20px;
-  width: 80vw;
+  width: 70vw;
   height: 55vh;
   display: flex;
   align-self: center;
@@ -238,6 +238,21 @@ margin-right: 2vw;
   align-items: center;
   font-weight: bold;
   font-size: 5vh;
+}
+
+/* home section */
+
+.homeContainer{
+  display: flex;
+  height: 90vh;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+}
+
+.HomepageLogo{
+  margin-bottom: 20vh;
+  margin-right: 5vw;
 }
 
 @media screen and (min-width: 320px) and (max-width: 414px) and (orientation: portrait) {
@@ -311,7 +326,7 @@ nav.stroke ul li a:after, nav.fill ul li a:after {
 /* contact section mobile*/
 
 .contactSectionContent{
-  width: 80vw;
+  width: 70vw;
   flex-direction: column;
 }
 
@@ -336,6 +351,45 @@ width: 10vw;
 .contactInfo{
   font-size: 2vh;
 }
+
+/* home section mobile */
+
+.HomepageLogoImg{
+  width: 30vw;
+}
+
+.HomeWelcomeText{
+  width: 70vw;
+  display: flex;
+  align-self: flex-end;
+  margin-right: 30vw;
+  margin-left: 2vw;
+}
+
+.HomeProfilePicture{
+  width: 35vw;
+  display: flex;
+  align-self: flex-end;
+}
+
+.homeContainer{
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+  overflow-y: scroll;
+  width: 100vw;
+  align-items: flex-start;
+  justify-content: start;
+}
+
+.HomepageLogo{
+  margin-bottom: 0px;
+  margin-right: 0px;
+  margin-top: 2vh;
+  display: flex;
+  align-self: center;
+}
+
 
 }
 
@@ -409,7 +463,7 @@ width: 10vw;
   /* contact section tablet*/
 
 .contactSectionContent{
-  width: 80vw;
+  width: 70vw;
   flex-direction: column;
 }
 
@@ -434,4 +488,19 @@ width: 10vw;
 .contactInfo{
   font-size: 2vh;
 }
+
+/* home section */
+
+.HomepageLogoImg{
+  width: 20vw;
+}
+
+.HomeWelcomeText{
+  width: 50vw;
+}
+
+.HomeProfilePicture{
+  width: 20vw;
+}
+
 }

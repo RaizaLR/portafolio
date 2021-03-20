@@ -20,11 +20,11 @@ function Contact() {
                     </div>
                     <div className='contactInfo'>
                         <img src={LinkedInLogo} alt='linkedin' className='logo'/>
-                        <p>https://www.linkedin.com/in/raizalongart</p>
+                        <p>Linkedin.com/in/raizalongart</p>
                     </div>
                     <div className='contactInfo'>
                         <img src={GitHubLogo} alt='gitHub' className='logo'/>
-                        <p>https://github.com/RaizaLR</p>
+                        <p>Github.com/RaizaLR</p>
                     </div>
                 </div>
             </div>

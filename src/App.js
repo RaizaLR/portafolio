@@ -2,6 +2,7 @@ import './App.css';
 import Projects from './Projects'
 import About from './AboutMe'
 import Contact from './Contact'
+import HomePage from './HomePage'
 import {
   BrowserRouter as Router,
   Switch,
@@ -40,6 +41,9 @@ function App() {
           </Route>
           <Route path="/contacto">
             <Contact />
+          </Route>
+          <Route path="/">
+            <HomePage />
           </Route>
         </Switch>
   </div>

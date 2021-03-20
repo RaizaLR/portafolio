@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/portafolio/static/css/main.80fa5d55.chunk.css",
-    "main.js": "/portafolio/static/js/main.9910b087.chunk.js",
-    "main.js.map": "/portafolio/static/js/main.9910b087.chunk.js.map",
+    "main.css": "/portafolio/static/css/main.559e37ba.chunk.css",
+    "main.js": "/portafolio/static/js/main.9aa630e0.chunk.js",
+    "main.js.map": "/portafolio/static/js/main.9aa630e0.chunk.js.map",
     "runtime-main.js": "/portafolio/static/js/runtime-main.bc3e3bd1.js",
     "runtime-main.js.map": "/portafolio/static/js/runtime-main.bc3e3bd1.js.map",
     "static/js/2.558c624f.chunk.js": "/portafolio/static/js/2.558c624f.chunk.js",
@@ -10,12 +10,15 @@
     "static/js/3.3ef7a4fe.chunk.js": "/portafolio/static/js/3.3ef7a4fe.chunk.js",
     "static/js/3.3ef7a4fe.chunk.js.map": "/portafolio/static/js/3.3ef7a4fe.chunk.js.map",
     "index.html": "/portafolio/index.html",
-    "static/css/main.80fa5d55.chunk.css.map": "/portafolio/static/css/main.80fa5d55.chunk.css.map",
+    "static/css/main.559e37ba.chunk.css.map": "/portafolio/static/css/main.559e37ba.chunk.css.map",
     "static/js/2.558c624f.chunk.js.LICENSE.txt": "/portafolio/static/js/2.558c624f.chunk.js.LICENSE.txt",
     "static/media/AboutMe.7998e0e9.svg": "/portafolio/static/media/AboutMe.7998e0e9.svg",
     "static/media/BeautyTips.8339a257.svg": "/portafolio/static/media/BeautyTips.8339a257.svg",
     "static/media/ContactImg.1dce3452.svg": "/portafolio/static/media/ContactImg.1dce3452.svg",
     "static/media/GitHubLogo.70481bb2.svg": "/portafolio/static/media/GitHubLogo.70481bb2.svg",
+    "static/media/HomeLogo.ad03a2fd.svg": "/portafolio/static/media/HomeLogo.ad03a2fd.svg",
+    "static/media/HomeProfilePicture.3f7dd838.svg": "/portafolio/static/media/HomeProfilePicture.3f7dd838.svg",
+    "static/media/HomeWelcomeText.6b9f0c14.svg": "/portafolio/static/media/HomeWelcomeText.6b9f0c14.svg",
     "static/media/LinkedInLogo.66a99c53.svg": "/portafolio/static/media/LinkedInLogo.66a99c53.svg",
     "static/media/MailImg.64458845.svg": "/portafolio/static/media/MailImg.64458845.svg",
     "static/media/SushiQueen.901261e2.svg": "/portafolio/static/media/SushiQueen.901261e2.svg",
@@ -26,7 +29,7 @@
   "entrypoints": [
     "static/js/runtime-main.bc3e3bd1.js",
     "static/js/2.558c624f.chunk.js",
-    "static/css/main.80fa5d55.chunk.css",
-    "static/js/main.9910b087.chunk.js"
+    "static/css/main.559e37ba.chunk.css",
+    "static/js/main.9aa630e0.chunk.js"
   ]
 }

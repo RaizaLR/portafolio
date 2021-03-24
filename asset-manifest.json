@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portafolio/static/css/main.d4d4dbd5.chunk.css",
-    "main.js": "/portafolio/static/js/main.2d0ae48c.chunk.js",
-    "main.js.map": "/portafolio/static/js/main.2d0ae48c.chunk.js.map",
+    "main.js": "/portafolio/static/js/main.4ff42cea.chunk.js",
+    "main.js.map": "/portafolio/static/js/main.4ff42cea.chunk.js.map",
     "runtime-main.js": "/portafolio/static/js/runtime-main.bc3e3bd1.js",
     "runtime-main.js.map": "/portafolio/static/js/runtime-main.bc3e3bd1.js.map",
     "static/js/2.558c624f.chunk.js": "/portafolio/static/js/2.558c624f.chunk.js",
@@ -15,7 +15,7 @@
     "static/media/AboutMe.7998e0e9.svg": "/portafolio/static/media/AboutMe.7998e0e9.svg",
     "static/media/BeautyTips.8339a257.svg": "/portafolio/static/media/BeautyTips.8339a257.svg",
     "static/media/ContactImg.1dce3452.svg": "/portafolio/static/media/ContactImg.1dce3452.svg",
-    "static/media/Datalovers.3c079cef.svg": "/portafolio/static/media/Datalovers.3c079cef.svg",
+    "static/media/Datalovers.df23e5f4.svg": "/portafolio/static/media/Datalovers.df23e5f4.svg",
     "static/media/GitHubLogo.70481bb2.svg": "/portafolio/static/media/GitHubLogo.70481bb2.svg",
     "static/media/HomeLogo.ad03a2fd.svg": "/portafolio/static/media/HomeLogo.ad03a2fd.svg",
     "static/media/HomeProfilePicture.3f7dd838.svg": "/portafolio/static/media/HomeProfilePicture.3f7dd838.svg",
@@ -31,6 +31,6 @@
     "static/js/runtime-main.bc3e3bd1.js",
     "static/js/2.558c624f.chunk.js",
     "static/css/main.d4d4dbd5.chunk.css",
-    "static/js/main.2d0ae48c.chunk.js"
+    "static/js/main.4ff42cea.chunk.js"
   ]
 }

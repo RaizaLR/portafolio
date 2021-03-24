@@ -230,6 +230,7 @@ margin: 0vh 0vw 0vh 2vw;
 
 .logo{
 margin-right: 2vw;
+width: 5vw;
 }
 
 
@@ -237,7 +238,13 @@ margin-right: 2vw;
   display: flex;
   align-items: center;
   font-weight: bold;
-  font-size: 5vh;
+  font-size: 4vh;
+  color: #000000;
+}
+
+.linkToClick{
+  cursor: pointer;
+  color: #000000
 }
 
 /* home section */

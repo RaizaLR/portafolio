@@ -1,5 +1,5 @@
 import TuOportunidad from './TuOportunidad.svg'
-import SushiQueen from './SushiQueen.svg'
+import Datalovers from './Datalovers.svg'
 import BeautyTips from './BeautyTips.svg'
 import githubIcon from './githubIcon.svg'
 
@@ -22,10 +22,10 @@ function Projects() {
                     </div>
                     <div className='rightProjectContainer'>
                         <div className='rightButtonscontainer'>
-                            <span className='demoBtn'>Ver demo</span>
-                            <span className='githubBtn'><img src={githubIcon} alt='GitHub' className='githubLogo'/>GitHub</span>
+                            <span className='demoBtn' onClick={() =>{openLink('https://raizalr.github.io/SCL015-data-lovers/src/')}}>Ver demo</span>
+                            <span className='githubBtn' onClick={() =>{openLink('https://github.com/RaizaLR/SCL015-data-lovers')}}><img src={githubIcon} alt='GitHub' className='githubLogo'/>GitHub</span>
                         </div>
-                        <img src={SushiQueen} alt='Sushi Queen' className='projectImg'/>
+                        <img src={Datalovers} alt='Datalovers' className='projectImg'/>
                     </div>
                     <div className='leftProjectContainer'>
                         <img src={BeautyTips} alt='Beauty Tips' className='projectImg'/>

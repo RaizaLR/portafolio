@@ -32,7 +32,7 @@ function Contact() {
                     </div>
                     <div className='contactInfo'>
                         <img src={LogoLaboratoria} alt='appTalentoLab' className='logo'/>
-                        <p className="linkToClick" onClick={() => {openLink('https://app.talento.laboratoria.la/profile/zLSo6EUimqbOp5ZzLtGNawI3QFD2')}}>app.talento.laboratoria.la</p>
+                        <p className="linkToClick" onClick={() => {openLink('https://app.talento.laboratoria.la/profile/zLSo6EUimqbOp5ZzLtGNawI3QFD2')}}>App talento laboratoria</p>
                     </div>
                 </div>
             </div>

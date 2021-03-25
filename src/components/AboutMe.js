@@ -1,4 +1,4 @@
-import AboutMe from './AboutMe.svg'
+import AboutMe from '../img/AboutMe.svg'
 
 function About() {
     return (

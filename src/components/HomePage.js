@@ -1,6 +1,6 @@
-import HomeLogo from './HomeLogo.svg'
-import HomeWelcomeText from './HomeWelcomeText.svg'
-import HomeProfilePicture from './HomeProfilePicture.svg'
+import HomeLogo from '../img/HomeLogo.svg'
+import HomeWelcomeText from '../img/HomeWelcomeText.svg'
+import HomeProfilePicture from '../img/HomeProfilePicture.svg'
 
 function HomePage() {
     return (

@@ -1,8 +1,8 @@
-import ContactImg from './ContactImg.svg'
-import MailImg from './MailImg.svg'
-import LinkedInLogo from './LinkedInLogo.svg'
-import GitHubLogo from './GitHubLogo.svg'
-import LogoLaboratoria from './LogoLaboratoria.svg'
+import ContactImg from '../img/ContactImg.svg';
+import MailImg from '../img/MailImg.svg';
+import LinkedInLogo from '../img/LinkedInLogo.svg';
+import GitHubLogo from '../img/GitHubLogo.svg';
+import LogoLaboratoria from '../img/LogoLaboratoria.svg';
 
 // funcion para abrir links
 const openLink = (link) => {

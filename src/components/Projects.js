@@ -1,7 +1,7 @@
-import TuOportunidad from './TuOportunidad.svg'
-import Datalovers from './Datalovers.svg'
-import BeautyTips from './BeautyTips.svg'
-import githubIcon from './githubIcon.svg'
+import TuOportunidad from '../img/TuOportunidad.svg'
+import Datalovers from '../img/Datalovers.svg'
+import BeautyTips from '../img/BeautyTips.svg'
+import githubIcon from '../img/githubIcon.svg'
 
 // funcion para abrir links
 const openLink = (link) => {

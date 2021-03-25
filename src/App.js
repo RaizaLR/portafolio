@@ -1,8 +1,8 @@
 import './App.css';
-import Projects from './Projects'
-import About from './AboutMe'
-import Contact from './Contact'
-import HomePage from './HomePage'
+import Projects from './components/Projects'
+import About from './components/AboutMe'
+import Contact from './components/Contact'
+import HomePage from './components/HomePage'
 import {
   BrowserRouter as Router,
   Switch,

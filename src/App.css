@@ -327,7 +327,7 @@ nav.stroke ul li a:after, nav.fill ul li a:after {
 }
 
 .aboutMeImg{
-  width: 90vw;
+  width: 98vw;
 }
 
 /* contact section mobile*/
@@ -386,7 +386,7 @@ width: 10vw;
   overflow-y: scroll;
   width: 100vw;
   align-items: flex-start;
-  justify-content: start;
+  justify-content: flex-start;
 }
 
 .HomepageLogo{

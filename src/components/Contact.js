@@ -3,6 +3,9 @@ import MailImg from '../img/MailImg.svg';
 import LinkedInLogo from '../img/LinkedInLogo.svg';
 import GitHubLogo from '../img/GitHubLogo.svg';
 import LogoLaboratoria from '../img/LogoLaboratoria.svg';
+import {
+    Link 
+     } from "react-router-dom";
 
 // funcion para abrir links
 const openLink = (link) => {
@@ -11,6 +14,25 @@ const openLink = (link) => {
 
 function Contact() {
     return (
+        <div className="App">
+        <header className="App-header">
+            <li className="headerTitle">
+            <Link to="/">
+                Raiza Longart
+                <br/> 
+                <div className="headerSubtitle">
+                Front-end developer
+                </div>
+            </Link>
+            </li>
+            <nav className="stroke">
+            <ul>
+                <li><Link to="/proyectos">Proyectos</Link></li>
+                <li><Link to="/sobre-mi">Sobre mi</Link></li>
+                <li><Link to="/contacto">Contacto</Link></li>
+            </ul>
+            </nav>
+        </header>
         <div className='contactSectionContainer'>
             <h1 className='title'>Contacto</h1>
             <div className='contactSectionContent'>
@@ -37,6 +59,7 @@ function Contact() {
                 </div>
             </div>
         </div>
+    </div>
     )}
 
     export default Contact;

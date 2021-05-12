@@ -12,7 +12,7 @@ import {
 
 const App = () => {
   return (
-    <Router>
+    <BrowserRouter>
 
     <Switch>
           <Route exact path="/sobre-mi">
@@ -29,7 +29,7 @@ const App = () => {
           </Route>
     </Switch>
 
-    </Router>   
+    </BrowserRouter>   
   );
 
 }

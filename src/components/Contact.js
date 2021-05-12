@@ -12,7 +12,7 @@ const openLink = (link) => {
     window.open(link)
 }
 
-function Contact() {
+const Contact = () => {
     return (
         <div className="App">
         <header className="App-header">

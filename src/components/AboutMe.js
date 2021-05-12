@@ -3,7 +3,7 @@ import {
     Link 
      } from "react-router-dom";
 
-function About() {
+const About = () => {
     return (
         <div className="App">
         <header className="App-header">

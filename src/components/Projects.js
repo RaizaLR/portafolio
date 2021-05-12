@@ -11,7 +11,7 @@ const openLink = (link) => {
      window.open(link)
  }
 
-function Projects() {
+const Projects = () => {
     return (
         <div className="App">
         <header className="App-header">

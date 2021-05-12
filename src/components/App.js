@@ -12,7 +12,7 @@ import {
 
 const App = () => {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
 
     <Switch>
           <Route exact path="/sobre-mi">

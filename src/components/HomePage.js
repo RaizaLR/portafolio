@@ -5,7 +5,7 @@ import {
     Link 
      } from "react-router-dom";
 
-function HomePage() {
+     const HomePage = () => {
     return (
         <div className="App">
         <header className="App-header">

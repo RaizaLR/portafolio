@@ -2,15 +2,36 @@ import TuOportunidad from '../img/TuOportunidad.svg'
 import Datalovers from '../img/Datalovers.svg'
 import BeautyTips from '../img/BeautyTips.svg'
 import githubIcon from '../img/githubIcon.svg'
+import {
+    Link 
+     } from "react-router-dom";
 
 // funcion para abrir links
 const openLink = (link) => {
      window.open(link)
  }
 
-function Projects() {
+const Projects = () => {
     return (
-        <div>
+        <div className="App">
+        <header className="App-header">
+            <li className="headerTitle">
+            <Link to="/">
+                Raiza Longart
+                <br/> 
+                <div className="headerSubtitle">
+                Front-end developer
+                </div>
+            </Link>
+            </li>
+            <nav className="stroke">
+            <ul>
+                <li><Link to="/proyectos">Proyectos</Link></li>
+                <li><Link to="/sobre-mi">Sobre mi</Link></li>
+                <li><Link to="/contacto">Contacto</Link></li>
+            </ul>
+            </nav>
+        </header>
             <div className='projects'>
                     <h1 className='title'>Proyectos</h1>
                     <div className='leftProjectContainer'>

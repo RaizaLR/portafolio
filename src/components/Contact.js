@@ -19,10 +19,6 @@ function Contact() {
                 </div>
                 <div>
                     <div className='contactInfo'>
-                        <img src={MailImg} alt='Gmail' className='logo'/>
-                        <a href="mailto:raizalongart@gmail.com"><p className="linkToClick">Raizalongart@gmail.com</p></a>
-                    </div>
-                    <div className='contactInfo'>
                         <img src={LinkedInLogo} alt='linkedin' className='logo'/>
                         <p className="linkToClick" onClick={() => {openLink('https://linkedin.com/in/raizalongart')}}>Linkedin.com/in/raizalongart</p>
                     </div>
